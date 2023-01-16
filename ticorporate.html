@@ -435,22 +435,20 @@ export class GameLobbyComponent implements OnInit, OnDestroy {
                 <p class="koodi-text-p">
                   Kun joku tiimin jäsen tarvitsi pääsyn AWS-palveluihin, oli
                   minun homma antaa hänelle pääsy hänen tarvitsemaansa
-                  palveluun.
-                </p>
-                <img src="assets/IAM2.jpg" alt="kuva aws" />
-                <p class="koodi-text-p">
-                  Tässä esimerkki siitä, kun meidän piti päästä käsiksi
-                  cloudwatch logehin silloin kun ilmeni ongelmia websockettien kanssa.
-                  Tässä käytettiin Cloudwatch-palvelua. Cloudwatch on hyvä
+                  palveluun. Hyvä esimerkki tästä oli, kun meidän piti päästä käsiksi
+                  CloudWatch logehin silloin kun ilmeni ongelmia websockettien kanssa.
+                  Aluksi piti luoda ApiCloudWatch IAM rooli ja sitten antaa ryhmän 
+                  jäsenelle lupa tarkastella CloudWatch logeja CloudWatch on hyvä
                   palvelu, jolla voi seurata AWS-palvelujen toimintaa. Tässä
                   taas tuli huomattua AWS-palvelujen monipuolisuus.
                 </p>
                 <img src="assets/api-role.jpg" alt="kuva aws" />
+                <img src="assets/IAM2.jpg" alt="kuva aws" />
                 <img src="assets/Cloudwatch.jpg" alt="kuva aws" />
                 <p class="koodi-text-p">
                 Koska frontissa piti käyttää kuvissa url osoitteita, niin
                 päätimme luikauttaa kuvat AWS S3 -palveluun. S3 on helppokäyttöinen ja tuttu 
-                palvelu sekä turvallinen.
+                palvelu sekä turvallinen. S3 on niin helppo että jopa meidän UI/UX ukkeli oppi sen käytön nopeasti.
                 </p>
                 <img src="assets/s3.jpg" alt="kuva aws">
                 <p class="koodi-text-p">

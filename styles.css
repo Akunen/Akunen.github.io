@@ -1,0 +1,386 @@
+body {
+  font-family: sans-serif;
+
+  line-height: 1.5;
+  background-color: #1f2933;
+}
+
+p {
+  color: #f5f7fa;
+  font-size: 1.2em;
+}
+
+h1 {
+  color: #f5f7fa;
+}
+
+h2 {
+  color: #f5f7fa;
+}
+
+li {
+  color: #f5f7fa;
+}
+
+#main {
+  display: flex;
+  margin-left: 250px;
+}
+
+/*ASIDE STYLING*/
+#left-content {
+  width: 250px;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  height: calc(100% - 125px);
+  padding-bottom: 25px;
+  background-color: #3e4c59;
+  border-radius: 21px;
+}
+
+#profile {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#profile img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+#profile h2 {
+  text-align: center;
+  padding: bottom 15px;
+  color: orange;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px 0;
+}
+
+#menu {
+  display: block;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  display: flex;
+}
+
+#menu li a {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-right: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #f5f7fa;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 2px solid transparent;
+}
+
+#menu li a:hover {
+  background-color: #1f2933;
+  border-radius: 21px;
+}
+
+#menu li a:active {
+  text-decoration: none;
+}
+
+#menu li a:visited {
+  text-decoration: none;
+}
+
+#menu li a:link {
+  text-decoration: none;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+#icons a {
+  font-size: 40px;
+  color: orange;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+#icons a:hover {
+  color: #f5f7fa;
+}
+
+#icons a:active {
+  text-decoration: none;
+}
+
+#icons a:visited {
+  text-decoration: none;
+}
+
+#icons a:link {
+  text-decoration: none;
+}
+
+/*MAIN CONTENT STYLING*/
+#right-content {
+  width: calc(100% - 50px);
+  height: calc(100% - 125px);
+  padding: 50px;
+}
+#introduction {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#introduction h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#education {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#education h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#projects {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#projects h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#section-row {
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
+
+#section-column {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+#section-text-column {
+  width: calc(100% - 70px);
+  margin: 0 0 30px 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #3e4c59;
+  padding: 10px;
+  border-radius: 21px;
+}
+
+#section-text-column h2 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 20px;
+  color: orange;
+  font-size: 30px;
+}
+
+#section-text-column h3 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 20px;
+  color: orange;
+  font-size: 1.7em;
+}
+
+#section-text-column p {
+  text-align: left;
+  padding: 0 20px 0 20px;
+
+}
+
+#section-text-column a {
+  text-decoration: none;
+  text-align: left;
+  color: orange;
+}
+
+#section-text-column a:hover {
+  color: #f5f7fa;
+}
+
+#section-text-column a:visited {
+  text-decoration: none;
+}
+
+#section-text {
+  width: calc(60% - 70px);
+  margin: 0 0 30px 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #3e4c59;
+  padding: 10px;
+  border-radius: 21px;
+}
+
+#section-text h2 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 20px;
+  color: orange;
+  font-size: 30px;
+}
+
+#section-text p {
+  text-align: left;
+  padding: 0 0 0 20px;
+
+}
+
+#section-text p a {
+  text-decoration: none;
+  text-align: left;
+  color: orange;
+}
+
+#section-text p a:hover {
+  color: #f5f7fa;
+
+}
+
+#section-text p a:active {
+  text-decoration: none;
+}
+
+#section-text p a:visited {
+  text-decoration: none;
+}
+
+
+.tech-tags {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.tag {
+padding: 5px 20px;
+border-radius: 21px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1f2933;
+margin: 8px 0 0 8px;
+color: orange;
+}
+
+/* TICORPORATE STYLING */
+
+.ticorporate {
+  height: auto;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.ticorporate h1{
+
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#brewdeck-text {
+  display: flex;
+}
+
+#brewdeck-text-picture {
+  height: 300px;
+  width: 550px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  padding: 0 0 20px 20px;
+
+}
+
+
+.koodi-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.koodi-text img {
+  margin-top: 15px;  
+  width: 90%;
+}
+
+.koodi-text p {
+  text-align: left;
+  padding: 0 20px 0 20px;
+}
+.koodi {
+  background-color: #1f2933;
+  padding: 20px;
+  width: 90%;
+  border-radius: 21px;
+}
+
+.koodi code {
+  color: #f5f7fa;
+  font-size: 1em;
+}
